@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #ffe6f2;
+        }
+        header {
+            background: #ff99cc;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            position: relative;
+            z-index: 2;
+        }
+        header img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            opacity: 0.5;
+        }
+        nav {
+            background: #ff66b2;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .section {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project {
+            width: 30%;
+            text-align: center;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .footer {
+            background: #ff99cc;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="header-image.jpg" alt="Header Image">
+        <h1>CHIKAL BUNGA JUNIANTI</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Saya Chikal Bunga Junianti, seorang mahasiswa Informatika yang memiliki semangat besar dalam mengeksplorasi dunia teknologi dan pengembangan perangkat lunak. Dengan latar belakang pendidikan di bidang teknik informatika, saya fokus pada pengembangan solusi kreatif berbasis teknologi. Saya juga memiliki ketertarikan khusus dalam pengembangan aplikasi, analisis data, dan kecerdasan buatan.
+
+                Saya selalu terbuka untuk belajar hal-hal baru dan senang berkolaborasi dalam tim untuk menghasilkan karya yang inovatif dan bermanfaat. Melalui portofolio ini, saya ingin menunjukkan proyek dan pengalaman yang telah saya capai selama perjalanan akademik dan profesional saya.
+                
+                </p>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="topgolf-thumbnail.jpg" alt="TOPGOLF System Optimization">
+                    <p><strong>TOPGOLF System Optimization</strong></p>
+                </div>
+                <div class="project">
+                    <img src="student-management-thumbnail.jpg" alt="Student Management System">
+                    <p><strong>Student Management System</strong></p>
+                </div>
+                <div class="project">
+                    <img src="ecommerce-thumbnail.jpg" alt="E-Commerce Platform">
+                    <p><strong>E-Commerce Platform</strong></p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>Email     : chikalbungajunianti.com</p>
+            <p>Phone     : 087771406734</p>
+            <p>Instagram : Chikalbungaj</p>
+        </section>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
